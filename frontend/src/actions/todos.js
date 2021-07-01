@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { GET_TODOS } from './type';
+import { GET_TODOS } from './types';
 
 export const getTodos = () => async dispatch => {
     const res = await axios.get('/api/todos');
